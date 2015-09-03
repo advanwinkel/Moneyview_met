@@ -13,3 +13,4 @@ simple:authenticate-user-by-token
 simple:json-routes
 accounts-ui
 accounts-password
+twbs:bootstrap

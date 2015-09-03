@@ -7,12 +7,14 @@
     <option value=2>&lt;65%</option>
     <option value=3>&lt;85%</option>
   </select>
-  <table style="width:80%">
-    {{#each rtabsOut}}
-      <tr>
-       {{> ratetab}}
-     </tr>
-    {{/each}}
+  <table class="table table-striped">
+    <tbody>
+      {{#each rtabsOut}}
+        <tr>
+         {{> ratetab}}
+       </tr>
+      {{/each}}
+    </tbody>
   </table>
 {{/if}}
 </template>
