@@ -11,6 +11,6 @@ simple:rest-accounts-password
 http
 simple:authenticate-user-by-token
 simple:json-routes
-accounts-ui
 accounts-password
 twbs:bootstrap
+ian:accounts-ui-bootstrap-3
